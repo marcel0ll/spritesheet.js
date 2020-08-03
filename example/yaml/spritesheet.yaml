@@ -22,22 +22,22 @@ frames:
         sourceSize: 
             w: 286
             h: 355
-    fx_particle_shell.png:
+    character_hero.png:
         frame: 
-            x: 951
-            y: 716
-            w: 7
-            h: 7
+            x: 316
+            y: 10
+            w: 203
+            h: 346
         rotated: false
         trimmed: false
         spriteSourceSize: 
             x: 0
             y: 0
-            w: 7
-            h: 7
+            w: 203
+            h: 346
         sourceSize: 
-            w: 7
-            h: 7
+            w: 203
+            h: 346
     fx_particle_crash_03.png:
         frame: 
             x: 539
@@ -198,38 +198,6 @@ frames:
         sourceSize: 
             w: 82
             h: 129
-    button_active.png:
-        frame: 
-            x: 387
-            y: 539
-            w: 124
-            h: 50
-        rotated: false
-        trimmed: false
-        spriteSourceSize: 
-            x: 0
-            y: 0
-            w: 124
-            h: 50
-        sourceSize: 
-            w: 124
-            h: 50
-    button_hover.png:
-        frame: 
-            x: 531
-            y: 539
-            w: 124
-            h: 50
-        rotated: false
-        trimmed: false
-        spriteSourceSize: 
-            x: 0
-            y: 0
-            w: 124
-            h: 50
-        sourceSize: 
-            w: 124
-            h: 50
     button.png:
         frame: 
             x: 675
@@ -406,22 +374,22 @@ frames:
         sourceSize: 
             w: 89
             h: 59
-    character_hero.png:
+    fx_particle_pow_02.png:
         frame: 
-            x: 316
-            y: 10
-            w: 203
-            h: 346
+            x: 889
+            y: 206
+            w: 49
+            h: 84
         rotated: false
-        trimmed: false
-        spriteSourceSize: 
-            x: 0
-            y: 0
-            w: 203
-            h: 346
+        trimmed: true
+        spriteSourceSize:
+            x: 30
+            y: 39
+            w: 49
+            h: 84
         sourceSize: 
-            w: 203
-            h: 346
+            w: 111
+            h: 170
     ship_jet_body.png:
         frame: 
             x: 541
@@ -806,19 +774,51 @@ frames:
         sourceSize: 
             w: 89
             h: 59
-    fx_particle_pow_02.png:
+    fx_particle_shell.png:
         frame: 
-            x: 889
-            y: 206
-            w: 49
-            h: 84
+            x: 951
+            y: 716
+            w: 7
+            h: 7
         rotated: false
-        trimmed: true
-        spriteSourceSize:
-            x: 30
-            y: 39
-            w: 49
-            h: 84
+        trimmed: false
+        spriteSourceSize: 
+            x: 0
+            y: 0
+            w: 7
+            h: 7
         sourceSize: 
-            w: 111
-            h: 170
+            w: 7
+            h: 7
+    button_hover.png:
+        frame: 
+            x: 531
+            y: 539
+            w: 124
+            h: 50
+        rotated: false
+        trimmed: false
+        spriteSourceSize: 
+            x: 0
+            y: 0
+            w: 124
+            h: 50
+        sourceSize: 
+            w: 124
+            h: 50
+    button_active.png:
+        frame: 
+            x: 387
+            y: 539
+            w: 124
+            h: 50
+        rotated: false
+        trimmed: false
+        spriteSourceSize: 
+            x: 0
+            y: 0
+            w: 124
+            h: 50
+        sourceSize: 
+            w: 124
+            h: 50
