@@ -2,7 +2,7 @@
 	"meta": {
 		"image": "{{{name}}}.png",
 		"size": {"w":{{width}},"h":{{height}}},
-		"scale": "1"
+		"scale": "{{scale}}"
 	},
 	"frames": {
 	{{#files}}
